@@ -1,0 +1,76 @@
+body {
+  font-family: Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospac;
+}
+
+#Main {
+  width: 800px;
+  margin: auto;
+}
+
+#fields {
+  margin: 50px auto;
+  /* text-align: center; */
+  width: 500px;
+}
+
+#LogContainer {
+  border-radius: .5rem;
+  margin-top: 50px;
+  background: #2D3848;
+  padding: 20px 10px;
+}
+
+#LogContainer p {
+  padding: 4px;
+  color: #fff;
+  display: block;
+}
+
+#LogContainer p span {
+  color: #828282;
+  display: block;
+  width: 60px;
+  float: left;
+  text-align: right;
+  margin-right: 10px;
+}
+
+input[type="text"] {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+  margin-bottom: 25px;
+}
+
+.btn {
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  border: 1px solid transparent;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+
+  color: #fff;
+  background-color: #4b719a;
+  border-radius: .25rem;
+}
+
+label {
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+
+.btn:not(:disabled):not(.disabled) {
+  cursor: pointer;
+}

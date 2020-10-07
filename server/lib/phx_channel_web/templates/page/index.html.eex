@@ -1,0 +1,10 @@
+<div class="mt-4">
+  <%= form_for @conn, Routes.page_path(@conn, :create), fn f -> %>
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea name="message" class="form-control" id="message" rows="3" required></textarea>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Send</button>
+  <% end %>
+</div>
